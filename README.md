@@ -1,6 +1,6 @@
 ## Ping Pong 
-... in which you play `both players` at once. You'd chuckle when you beat yourself :) 
-Then realise you're still single --> Cry.
+... in which you play `both players` at once. You'd chuckle when you beat yourself :)
+Then  realise you're still single --> Cry.
 
 ... Move left paddle using keys: **W,A,S,D**.
 
