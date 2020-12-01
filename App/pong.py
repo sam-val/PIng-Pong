@@ -236,6 +236,9 @@ def make_frame(ball=None, right_pad=None, left_pad=None):
             if not ball.running:
                 count_down = True
                 t1 = time.time()
+        if e.type == pygame.KEYDOWN:
+            if e.key == pygame.K_q:
+                quit_game()
     if ball is not None:
         ball.update()
     if right_pad is not None:
