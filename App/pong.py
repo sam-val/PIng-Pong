@@ -1,8 +1,10 @@
 import pygame
 import random as r
-import sys
+import sys, os
 import time
 
+dir_path = os.path.dirname(os.path.realpath(__file__))
+sound_path = os.path.join(dir_path, 'Sounds')
 
 class Player:
     SCORE = 0
@@ -171,9 +173,9 @@ p2 = Player("Player 2")
 
 ball = Ball.init(BALL_MAX_X, BALL_MAX_Y, BALL_X_SPEED_MIN, BALL_Y_SPEED_MIN)
 # sounds
-pong = pygame.mixer.Sound('Sounds/pong.wav')
-whoosh = pygame.mixer.Sound('Sounds/whoosh.wav')
-hit_wall = pygame.mixer.Sound("Sounds/wall.wav")
+pong = pygame.mixer.Sound(os.path.join(sound_path, 'pong.wav'))
+whoosh = pygame.mixer.Sound(os.path.join(sound_path, 'whoosh.wav'))
+hit_wall = pygame.mixer.Sound(os.path.join(sound_path, 'wall.wav'))
 
 
 def make_frame(ball=None, right_pad=None, left_pad=None):
