@@ -23,5 +23,9 @@ Then  realise you're still single --> Cry.
 >> python3 pong.py
 ```
 
+3. Left cLick anywhere on screen to start.
+
+4. Press 'q' to quit.
+
 ## Gif:
 <img src="preview/pong.gif" width=800 />
