@@ -23,7 +23,7 @@ Then  realise you're still single --> Cry.
 >> python3 pong.py
 ```
 
-3. Left cLick anywhere on screen to start.
+3. Left click anywhere on screen to start.
 
 4. Press 'q' to quit.
 
